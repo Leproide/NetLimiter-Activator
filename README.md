@@ -1,3 +1,10 @@
+**WARNING**
+
+This repo is published for educational purposes only. 
+No one is being encouraged to use unlicensed software, consider it an example of how not to protect an application.
+This system is publicly available and has been working for years across multiple versions, including the latest one, and it doesn’t seem like the developer is interested in patching it.
+If you like the software, buy it!
+
 # NetLimiter Patcher
 
 Sets the license to 99999 days and forces license registration, it currently works with all available versions.
@@ -6,7 +13,7 @@ Sets the license to 99999 days and forces license registration, it currently wor
 
 [**DOWNLOAD**](https://muninn.ovh/Patcher/NetLimiter/NetLimiter%20Patcher.exe)
 
-<small>SHA512: c5043a80b7ea5b31fd302f1df2d11d5e6ca3407b1b5fa4a40cbd312575c985250b65efb67272275f84b7f385452a56b28d7f387f1f5778317be7ead4c45d34a9</small>
+<small>SHA256: b52a267d09b3474b27d08549dfa6c02bdaf75fcba67e32da6c0cb6692d60dd7c</small>
 
 
 **How it works is simple:**
@@ -31,7 +38,7 @@ In the same method, changes the catch block type from Exception to System.Except
 **Custom name (optional):**  
 Modifies the get_RegName method of the NLLicense class to return the user‑chosen name instead of the backing field.
 
-Virustotal [ClickMe](https://www.virustotal.com/gui/file/20e8cf4b9428d7fcb3ef538a19f6a0e4422f0daad89171abe1a5ba5bdb74f47c/detection)
+Virustotal [ClickMe](https://www.virustotal.com/gui/file/b52a267d09b3474b27d08549dfa6c02bdaf75fcba67e32da6c0cb6692d60dd7c/details)
 
 Logs are in Italian. I’m too lazy to translate them ¯\\\_(ツ)\_/¯
 
