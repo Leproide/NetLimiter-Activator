@@ -38,7 +38,6 @@ In the same method, changes the catch block type from Exception to System.Except
 **Custom name (optional):**  
 Modifies the get_RegName method of the NLLicense class to return the user‑chosen name instead of the backing field.
 
-Virustotal [ClickMe](https://www.virustotal.com/gui/file/b52a267d09b3474b27d08549dfa6c02bdaf75fcba67e32da6c0cb6692d60dd7c/details)
 
 Logs are in Italian. I’m too lazy to translate them ¯\\\_(ツ)\_/¯
 
