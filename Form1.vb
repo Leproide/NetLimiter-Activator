@@ -91,8 +91,12 @@ Public Class Form1
                 sc.Stop()
                 sc.WaitForStatus(ServiceControllerStatus.Stopped, TimeSpan.FromSeconds(10))
                 Log("Servizio nlsvc fermato.")
+                btnStopServices.Enabled = False
+                btnPatch.Enabled = True
             Else
                 Log("Servizio nlsvc già fermato.")
+                btnStopServices.Enabled = False
+                btnPatch.Enabled = True
             End If
         Catch ex As Exception
             Log("Errore durante l'arresto: " & ex.Message)
@@ -115,6 +119,9 @@ Public Class Form1
             If File.Exists(clientPath) Then
                 Process.Start(clientPath)
                 Log("NLClientApp avviato.")
+                btnStopServices.Enabled = True
+                btnStartServices.Enabled = False
+                btnPatch.Enabled = False
             End If
         Catch ex As Exception
             Log("Errore durante l'avvio: " & ex.Message)
@@ -207,6 +214,7 @@ Public Class Form1
 
     Private Sub Bw_RunWorkerCompleted(sender As Object, e As RunWorkerCompletedEventArgs)
         btnPatch.Enabled = True
+        btnStartServices.Enabled = True
         If e.Error IsNot Nothing Then
             Log("Errore durante il patching: " & e.Error.Message)
         ElseIf e.Cancelled Then

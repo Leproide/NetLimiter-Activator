@@ -84,6 +84,7 @@ Partial Class Form1
         '
         'btnPatch
         '
+        Me.btnPatch.Enabled = False
         Me.btnPatch.Location = New System.Drawing.Point(12, 106)
         Me.btnPatch.Name = "btnPatch"
         Me.btnPatch.Size = New System.Drawing.Size(156, 23)
@@ -122,6 +123,7 @@ Partial Class Form1
         '
         'btnStartServices
         '
+        Me.btnStartServices.Enabled = False
         Me.btnStartServices.Location = New System.Drawing.Point(12, 135)
         Me.btnStartServices.Name = "btnStartServices"
         Me.btnStartServices.Size = New System.Drawing.Size(156, 23)
