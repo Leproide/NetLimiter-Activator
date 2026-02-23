@@ -1,0 +1,14 @@
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\bin\Debug\NetLimiter_Patcher.exe.config
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\bin\Debug\NetLimiter_Patcher.exe
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\bin\Debug\NetLimiter_Patcher.pdb
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\bin\Debug\NetLimiter_Patcher.xml
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.Form1.resources
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.Resources.resources
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.vbproj.GenerateResource.cache
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.vbproj.CoreCompileInputs.cache
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.exe
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.xml
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.pdb
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.vbprojAssemblyReference.cache
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.vbproj.Fody.CopyLocal.cache
+C:\Users\Leprechaun\source\repos\NetLimiter_Patcher\obj\Debug\NetLimiter_Patcher.vbproj.Fody.RuntimeCopyLocal.cache
