@@ -13,7 +13,7 @@ Sets the license to 99999 days and forces license registration, it currently wor
 
 [**DOWNLOAD**](https://muninn.ovh/Patcher/NetLimiter/NetLimiter%20Patcher.exe)
 
-<small>SHA256: 468cf5da9b45b45114dc9e9a3d0b4aca3ef0d415324084e15dfa29cef546c961</small>
+<small>SHA256: 6d9ac763222d09515c0e7c44d14e572e06a27b00672ebcf5d153346dba181096</small>
 
 **How it works is simple:**
 
@@ -40,4 +40,5 @@ Modifies the get_RegName method of the NLLicense class to return the user‑chos
 Logs are in Italian. I’m too lazy to translate them ¯\\\_(ツ)\_/¯
 
 ![NetLimiter Activated](https://muninn.ovh/Patcher/NetLimiter/NetLimiterActivated.png)
+
 
