@@ -33,51 +33,51 @@ Partial Class Form1
         Me.chkChangeName = New System.Windows.Forms.CheckBox()
         Me.txtLog = New System.Windows.Forms.TextBox()
         Me.btnStartServices = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.chkMusic = New System.Windows.Forms.CheckBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtDllPath
         '
-        Me.txtDllPath.Location = New System.Drawing.Point(12, 389)
+        Me.txtDllPath.Location = New System.Drawing.Point(12, 391)
         Me.txtDllPath.Name = "txtDllPath"
         Me.txtDllPath.ReadOnly = True
-        Me.txtDllPath.Size = New System.Drawing.Size(156, 20)
+        Me.txtDllPath.Size = New System.Drawing.Size(185, 20)
         Me.txtDllPath.TabIndex = 0
         '
         'btnBrowse
         '
-        Me.btnBrowse.Location = New System.Drawing.Point(12, 360)
+        Me.btnBrowse.Location = New System.Drawing.Point(12, 362)
         Me.btnBrowse.Name = "btnBrowse"
-        Me.btnBrowse.Size = New System.Drawing.Size(156, 23)
+        Me.btnBrowse.Size = New System.Drawing.Size(185, 23)
         Me.btnBrowse.TabIndex = 1
         Me.btnBrowse.Text = "Browse dll path"
         Me.btnBrowse.UseVisualStyleBackColor = True
         '
         'btnStopServices
         '
-        Me.btnStopServices.Location = New System.Drawing.Point(12, 77)
+        Me.btnStopServices.Location = New System.Drawing.Point(12, 79)
         Me.btnStopServices.Name = "btnStopServices"
-        Me.btnStopServices.Size = New System.Drawing.Size(156, 23)
+        Me.btnStopServices.Size = New System.Drawing.Size(185, 23)
         Me.btnStopServices.TabIndex = 2
         Me.btnStopServices.Text = "Stop Service"
         Me.btnStopServices.UseVisualStyleBackColor = True
         '
         'btnBackup
         '
-        Me.btnBackup.Location = New System.Drawing.Point(12, 415)
+        Me.btnBackup.Location = New System.Drawing.Point(12, 417)
         Me.btnBackup.Name = "btnBackup"
-        Me.btnBackup.Size = New System.Drawing.Size(75, 23)
+        Me.btnBackup.Size = New System.Drawing.Size(87, 23)
         Me.btnBackup.TabIndex = 3
         Me.btnBackup.Text = "Backup dll"
         Me.btnBackup.UseVisualStyleBackColor = True
         '
         'btnRestore
         '
-        Me.btnRestore.Location = New System.Drawing.Point(93, 415)
+        Me.btnRestore.Location = New System.Drawing.Point(110, 417)
         Me.btnRestore.Name = "btnRestore"
-        Me.btnRestore.Size = New System.Drawing.Size(75, 23)
+        Me.btnRestore.Size = New System.Drawing.Size(87, 23)
         Me.btnRestore.TabIndex = 4
         Me.btnRestore.Text = "Restore dll"
         Me.btnRestore.UseVisualStyleBackColor = True
@@ -85,9 +85,9 @@ Partial Class Form1
         'btnPatch
         '
         Me.btnPatch.Enabled = False
-        Me.btnPatch.Location = New System.Drawing.Point(12, 106)
+        Me.btnPatch.Location = New System.Drawing.Point(12, 108)
         Me.btnPatch.Name = "btnPatch"
-        Me.btnPatch.Size = New System.Drawing.Size(156, 23)
+        Me.btnPatch.Size = New System.Drawing.Size(185, 23)
         Me.btnPatch.TabIndex = 5
         Me.btnPatch.Text = "Patch dll"
         Me.btnPatch.UseVisualStyleBackColor = True
@@ -97,7 +97,7 @@ Partial Class Form1
         Me.txtRegName.Location = New System.Drawing.Point(12, 37)
         Me.txtRegName.Name = "txtRegName"
         Me.txtRegName.ReadOnly = True
-        Me.txtRegName.Size = New System.Drawing.Size(156, 20)
+        Me.txtRegName.Size = New System.Drawing.Size(185, 20)
         Me.txtRegName.TabIndex = 6
         Me.txtRegName.Text = "Leprechaun"
         Me.txtRegName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -105,7 +105,7 @@ Partial Class Form1
         'chkChangeName
         '
         Me.chkChangeName.AutoSize = True
-        Me.chkChangeName.Location = New System.Drawing.Point(36, 12)
+        Me.chkChangeName.Location = New System.Drawing.Point(50, 14)
         Me.chkChangeName.Name = "chkChangeName"
         Me.chkChangeName.Size = New System.Drawing.Size(114, 17)
         Me.chkChangeName.TabIndex = 7
@@ -114,57 +114,56 @@ Partial Class Form1
         '
         'txtLog
         '
-        Me.txtLog.Location = New System.Drawing.Point(174, 12)
+        Me.txtLog.Location = New System.Drawing.Point(203, 14)
         Me.txtLog.Multiline = True
         Me.txtLog.Name = "txtLog"
         Me.txtLog.ReadOnly = True
-        Me.txtLog.Size = New System.Drawing.Size(251, 426)
+        Me.txtLog.Size = New System.Drawing.Size(241, 426)
         Me.txtLog.TabIndex = 8
         '
         'btnStartServices
         '
         Me.btnStartServices.Enabled = False
-        Me.btnStartServices.Location = New System.Drawing.Point(12, 135)
+        Me.btnStartServices.Location = New System.Drawing.Point(12, 137)
         Me.btnStartServices.Name = "btnStartServices"
-        Me.btnStartServices.Size = New System.Drawing.Size(156, 23)
+        Me.btnStartServices.Size = New System.Drawing.Size(185, 23)
         Me.btnStartServices.TabIndex = 9
         Me.btnStartServices.Text = "Start Service"
         Me.btnStartServices.UseVisualStyleBackColor = True
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = Global.NetLimiter_Patcher.My.Resources.Resources.LeprePirate
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Image = Global.NetLimiter_Patcher.My.Resources.Resources.LeprePirate
-        Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 176)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(156, 164)
-        Me.PictureBox1.TabIndex = 10
-        Me.PictureBox1.TabStop = False
         '
         'chkMusic
         '
         Me.chkMusic.AutoSize = True
         Me.chkMusic.Checked = True
         Me.chkMusic.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkMusic.Location = New System.Drawing.Point(371, 444)
+        Me.chkMusic.Location = New System.Drawing.Point(390, 446)
         Me.chkMusic.Name = "chkMusic"
         Me.chkMusic.Size = New System.Drawing.Size(54, 17)
         Me.chkMusic.TabIndex = 11
         Me.chkMusic.Text = "Music"
         Me.chkMusic.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImage = Global.NetLimiter_Patcher.My.Resources.Resources.LeprePirate
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.InitialImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 166)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(185, 185)
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(437, 465)
+        Me.ClientSize = New System.Drawing.Size(455, 465)
+        Me.Controls.Add(Me.txtLog)
         Me.Controls.Add(Me.chkMusic)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnStartServices)
-        Me.Controls.Add(Me.txtLog)
         Me.Controls.Add(Me.chkChangeName)
         Me.Controls.Add(Me.txtRegName)
         Me.Controls.Add(Me.btnPatch)
